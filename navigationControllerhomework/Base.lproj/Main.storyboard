@@ -18,13 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="water" translatesAutoresizingMaskIntoConstraints="NO" id="vdi-QS-i2O"/>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2YQ-Xd-FVk">
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tl8-Rf-vDg">
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="李清照">
-                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="urj-QG-ghV" kind="show" id="y2M-fV-8ki"/>
@@ -33,7 +32,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IQJ-Yj-4MF">
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="李白">
-                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="oVR-qP-9f3" kind="show" id="pTS-Cl-wmP"/>
@@ -42,7 +41,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tM6-6E-xmR">
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="白居易">
-                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="Qzr-bg-VYi" kind="show" id="35L-IQ-6m6"/>
@@ -51,7 +50,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyI-Ai-qGE">
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="杜甫">
-                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <segue destination="VLw-pk-Zx8" kind="show" id="5h5-En-nk2"/>
@@ -63,11 +62,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2YQ-Xd-FVk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3aa-Xo-rxF"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vdi-QS-i2O" secondAttribute="bottom" id="4g0-Xo-Ggl"/>
-                            <constraint firstAttribute="trailing" secondItem="vdi-QS-i2O" secondAttribute="trailing" id="UTX-NJ-GrW"/>
-                            <constraint firstItem="vdi-QS-i2O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="i1D-lc-L3u"/>
                             <constraint firstItem="2YQ-Xd-FVk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kKq-la-l3d"/>
-                            <constraint firstItem="vdi-QS-i2O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="kOG-Ek-8DM"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="唐詩作者" id="nJd-oS-gjd"/>
@@ -741,7 +736,4 @@
             <point key="canvasLocation" x="4041" y="1533"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="water" width="4134" height="6496"/>
-    </resources>
 </document>

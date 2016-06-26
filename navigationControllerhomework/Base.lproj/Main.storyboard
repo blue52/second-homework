@@ -71,7 +71,7 @@
             </objects>
             <point key="canvasLocation" x="1152" y="800"/>
         </scene>
-        <!--作品集-->
+        <!--李清照-->
         <scene sceneID="3JK-dS-vPG">
             <objects>
                 <viewController id="urj-QG-ghV" sceneMemberID="viewController">
@@ -115,7 +115,7 @@
                             <constraint firstItem="caZ-2p-SAz" firstAttribute="centerX" secondItem="anw-1H-VBW" secondAttribute="centerX" id="T8g-2E-qSm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="作品集" id="ffT-G1-qAx"/>
+                    <navigationItem key="navigationItem" title="李清照" id="ffT-G1-qAx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiJ-kY-s5t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -260,7 +260,7 @@
             </objects>
             <point key="canvasLocation" x="456" y="800"/>
         </scene>
-        <!--作品集-->
+        <!--李白-->
         <scene sceneID="tAA-sX-TEc">
             <objects>
                 <viewController id="oVR-qP-9f3" sceneMemberID="viewController">
@@ -305,13 +305,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="作品集" id="wdk-Fd-c0y"/>
+                    <navigationItem key="navigationItem" title="李白" id="wdk-Fd-c0y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kOZ-HR-K3R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1854" y="1533"/>
         </scene>
-        <!--作品集-->
+        <!--杜甫-->
         <scene sceneID="2a0-DX-4Ht">
             <objects>
                 <viewController id="VLw-pk-Zx8" sceneMemberID="viewController">
@@ -355,7 +355,7 @@
                             <constraint firstItem="1Qp-Wf-Cyy" firstAttribute="centerY" secondItem="WcW-Vz-SYh" secondAttribute="centerY" id="s2x-xF-2u5"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="作品集" id="MlX-V8-huf"/>
+                    <navigationItem key="navigationItem" title="杜甫" id="MlX-V8-huf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="016-YU-Mkg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -470,7 +470,7 @@
             </objects>
             <point key="canvasLocation" x="4044" y="2896"/>
         </scene>
-        <!--作品集-->
+        <!--白居易-->
         <scene sceneID="iNF-XB-6jf">
             <objects>
                 <viewController id="Qzr-bg-VYi" sceneMemberID="viewController">
@@ -514,7 +514,7 @@
                             <constraint firstItem="9xa-R8-egA" firstAttribute="centerY" secondItem="AGP-02-Brg" secondAttribute="centerY" id="zAK-5u-tr3"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="作品集" id="iIr-bj-8s9"/>
+                    <navigationItem key="navigationItem" title="白居易" id="iIr-bj-8s9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="USa-rV-KnZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
